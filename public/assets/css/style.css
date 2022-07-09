@@ -65,7 +65,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 a:focus {
@@ -117,7 +117,7 @@ img {
 
 .form-control {
   height: 50px;
-  color: #2042e3;
+  color: #0046b8;
   border: 1px solid #ebebeb;
   background-color: transparent;
   border-radius: 0;
@@ -148,7 +148,7 @@ img {
   -webkit-box-shadow: unset;
   box-shadow: unset;
   outline: 0;
-  border: 1px solid #2042e3;
+  border: 1px solid #0046b8;
 }
 
 .form-control:hover:focus, .form-control:focus {
@@ -221,7 +221,7 @@ Default Btn Area Style*/
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   text-align: center;
-  background-color: #2042e3;
+  background-color: #0046b8;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -244,7 +244,7 @@ Read More Btn Area Style*/
 .read-more {
   font-weight: 600;
   font-size: 15px;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .read-more i {
@@ -255,7 +255,7 @@ Read More Btn Area Style*/
 }
 
 .read-more:hover {
-  color: #2042e3;
+  color: #0046b8;
   letter-spacing: 1px;
 }
 
@@ -270,7 +270,7 @@ Section Title Area Style*/
 
 .section-title span {
   font-size: 16px;
-  color: #2042e3;
+  color: #0046b8;
   display: block;
   margin-bottom: 10px;
 }
@@ -295,7 +295,7 @@ Section Title Area Style*/
 }
 
 .section-title.white-title span {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .section-title.white-title h2 {
@@ -338,7 +338,7 @@ Header Area Style
 }
 
 .top-header .header-left-content li span {
-  color: #2042e3;
+  color: #0046b8;
   font-weight: 600;
   font-size: 16px;
   display: inline-block;
@@ -356,7 +356,7 @@ Header Area Style
 }
 
 .top-header .header-left-content li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .top-header .header-right-content {
@@ -408,11 +408,11 @@ Header Area Style
 }
 
 .top-header .header-right-content .language .language-btn .dropdown-toggle:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .top-header .header-right-content .language .language-btn .dropdown-toggle:hover span i {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .top-header .header-right-content .language .language-btn .dropdown-menu {
@@ -466,7 +466,7 @@ Header Area Style
 }
 
 .top-header .header-right-content .language .language-btn .dropdown-menu .dropdown-item span:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .top-header .header-right-content .language .language-btn .dropdown-menu .dropdown-item:hover {
@@ -478,7 +478,7 @@ Header Area Style
 }
 
 .top-header .header-right-content .language .language-btn .dropdown-menu .dropdown-item.active {
-  color: #2042e3;
+  color: #0046b8;
   background-color: transparent;
 }
 
@@ -536,7 +536,7 @@ Header Area Style
 }
 
 .top-header .header-right-content .log-in li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .top-header.top-header-two {
@@ -643,11 +643,11 @@ Nav Area Style
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item a.active {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -667,7 +667,7 @@ Nav Area Style
   transition: all 0.2s ease-in-out;
   -webkit-box-shadow: 0px 5px 20px 3px rgba(230, 233, 249, 0.9);
   box-shadow: 0px 5px 20px 3px rgba(230, 233, 249, 0.9);
-  border-top: 2px solid #2042e3;
+  border-top: 2px solid #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
@@ -697,11 +697,11 @@ Nav Area Style
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -738,15 +738,15 @@ Nav Area Style
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:last-child a {
@@ -894,7 +894,7 @@ Others Option For Responsive Area Style
 }
 
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .others-option-for-responsive .container {
@@ -1047,7 +1047,7 @@ Banner Area Style
 .banner-content .total-job-count .job-count h3 {
   font-weight: 600;
   font-size: 24px;
-  color: #2042e3;
+  color: #0046b8;
   margin-bottom: 0;
 }
 
@@ -1245,7 +1245,7 @@ Working Area Style
 
 .single-working i {
   font-size: 40px;
-  color: #2042e3;
+  color: #0046b8;
   line-height: 1;
   display: block;
   margin-bottom: 20px;
@@ -1308,8 +1308,8 @@ Partner Area Style
 }
 
 .partner-area .owl-theme .owl-nav .owl-prev:hover, .partner-area .owl-theme .owl-nav .owl-next:hover {
-  background-color: #2042e3 !important;
-  border-color: #2042e3;
+  background-color: #0046b8 !important;
+  border-color: #0046b8;
 }
 
 .partner-area .owl-theme .owl-nav .owl-prev:hover i, .partner-area .owl-theme .owl-nav .owl-next:hover i {
@@ -1454,8 +1454,8 @@ Live Jobs Area Style
 }
 
 .live-jobs-area.live-jobs-area-three .hiring-list .owl-theme .owl-nav .owl-prev:hover, .live-jobs-area.live-jobs-area-three .hiring-list .owl-theme .owl-nav .owl-next:hover {
-  background-color: #2042e3 !important;
-  border-color: #2042e3;
+  background-color: #0046b8 !important;
+  border-color: #0046b8;
 }
 
 .live-jobs-area.live-jobs-area-three .hiring-list .owl-theme .owl-nav .owl-prev:hover i, .live-jobs-area.live-jobs-area-three .hiring-list .owl-theme .owl-nav .owl-next:hover i {
@@ -1499,7 +1499,7 @@ Live Jobs Area Style
 
 .single-live-job i {
   font-size: 40px;
-  color: #2042e3;
+  color: #0046b8;
   line-height: 1;
   display: block;
   margin-bottom: 10px;
@@ -1519,7 +1519,7 @@ Live Jobs Area Style
 .single-live-job:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .single-live-job:hover i {
@@ -1598,7 +1598,7 @@ Live Jobs Area Style
 }
 
 .hiring-list ul li:hover .link {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 /*
@@ -1990,14 +1990,14 @@ Hot Jobs Area Style
 }
 
 .hot-jobs-list:hover .hot-jobs-content h3 a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .hot-jobs-list .featured {
   position: absolute;
   top: 20px;
   left: -36px;
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
   padding: 5px 40px;
   -webkit-transform: rotate(-45deg);
@@ -2057,10 +2057,10 @@ Hot Jobs Area Style
   width: 25px;
   height: 25px;
   line-height: 21px;
-  border: 1px dashed #2042e3;
+  border: 1px dashed #0046b8;
   text-align: center;
   border-radius: 50%;
-  color: #2042e3;
+  color: #0046b8;
   background-color: #ffffff;
 }
 
@@ -2071,7 +2071,7 @@ Hot Jobs Area Style
   left: 12px;
   width: 1px;
   height: 100%;
-  border-right: 1px dashed #2042e3;
+  border-right: 1px dashed #0046b8;
 }
 
 .hot-jobs-sidebar .hot-job-sidebar .hot-job-sidebar-content ul li:last-child {
@@ -2135,7 +2135,7 @@ Global Talent Area Style
 }
 
 .global-talent-content span {
-  color: #2042e3;
+  color: #0046b8;
   display: block;
   margin-bottom: 10px;
   font-size: 16px;
@@ -2178,7 +2178,7 @@ Global Talent Area Style
   position: absolute;
   top: -3px;
   left: 0;
-  border: 1px dashed #2042e3;
+  border: 1px dashed #0046b8;
   border-radius: 8px 0 8px 0;
   width: 40px;
   height: 40px;
@@ -2186,7 +2186,7 @@ Global Talent Area Style
   text-align: center;
   margin-bottom: 0;
   font-size: 16px;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .global-talent-content .default-btn {
@@ -2230,7 +2230,7 @@ Global Talent Area Style
 
 .jubi-site-status .site-status .single-counter i {
   font-size: 50px;
-  color: #2042e3;
+  color: #0046b8;
   line-height: 1;
   margin-bottom: 5px;
   display: block;
@@ -2414,7 +2414,7 @@ Testimonials Area Style
 }
 
 .testimonials .owl-theme .owl-nav .owl-prev:hover i, .testimonials .owl-theme .owl-nav .owl-next:hover i {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .testimonials .owl-theme .owl-nav [class*=owl-]:hover {
@@ -2447,7 +2447,7 @@ Testimonials Area Style
 .testimonials-item i {
   line-height: 1;
   font-size: 50px;
-  color: #2042e3;
+  color: #0046b8;
   display: block;
   margin-bottom: 30px;
 }
@@ -2553,7 +2553,7 @@ Testimonials Area Three Style
 }
 
 .testimonials-area-three .owl-theme .owl-nav .owl-prev:hover i, .testimonials-area-three .owl-theme .owl-nav .owl-next:hover i {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .testimonials-area-three .owl-theme .owl-nav [class*=owl-]:hover {
@@ -2680,7 +2680,7 @@ Freelancer Area Style
   position: absolute;
   top: 20px;
   left: -45px;
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
   padding: 5px 60px;
   -webkit-transform: rotate(-45deg);
@@ -2778,7 +2778,7 @@ FAQ Area Style
   font-size: 25px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .faq-accordion .accordion .accordion-title.active {
@@ -2786,7 +2786,7 @@ FAQ Area Style
   padding: 20px 20px;
   padding-right: 40px;
   border-radius: 20px 0 0 0;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .faq-accordion .accordion .accordion-title.active i {
@@ -2916,7 +2916,7 @@ App Downloading Area Style
 }
 
 .app-downloading-content .app-btn .default-btn.active:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 /* 
@@ -2942,7 +2942,7 @@ Pricing Package Area Style
   font-weight: 600;
   display: block;
   margin-bottom: 8px;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .single-pricing-box .pricing-title h1 {
@@ -2958,7 +2958,7 @@ Pricing Package Area Style
 }
 
 .single-pricing-box .pricing-title h4 {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .single-pricing-box .pricing-title h4 span {
@@ -3052,7 +3052,7 @@ Blog Area Style
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: #2042e3;
+  background-color: #0046b8;
   display: inline-block;
   padding: 10px;
   position: absolute;
@@ -3096,7 +3096,7 @@ Blog Area Style
 }
 
 .single-blog-post .blog-content ul li i {
-  color: #2042e3;
+  color: #0046b8;
   display: inline-block;
   margin-right: 5px;
 }
@@ -3149,7 +3149,7 @@ Blog Area Style
 }
 
 .single-blog-post:hover .blog-content h3 a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 /*
@@ -3374,8 +3374,8 @@ Footer Area Style
 }
 
 .single-footer-widget .social-icon li a:hover i {
-  background-color: #2042e3;
-  border-color: #2042e3;
+  background-color: #0046b8;
+  border-color: #0046b8;
   color: #ffffff;
 }
 
@@ -3405,7 +3405,7 @@ Footer Area Style
 
 .single-footer-widget .address li i {
   position: absolute;
-  color: #2042e3;
+  color: #0046b8;
   left: 0;
   top: 5px;
   font-size: 20px;
@@ -3416,7 +3416,7 @@ Footer Area Style
 }
 
 .single-footer-widget .address li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .single-footer-widget .address li:last-child {
@@ -3438,7 +3438,7 @@ Footer Area Style
 }
 
 .single-footer-widget .import-link li:hover a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 /*
@@ -3456,7 +3456,7 @@ Copy Right Area Style
 }
 
 .copy-right-area p a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .copy-right-area.copy-right-area-two {
@@ -3527,7 +3527,7 @@ Page Title Area Style
 }
 
 .page-title-area .page-title-content ul li.active {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .page-title-area .page-title-content ul li:first-child {
@@ -3547,7 +3547,7 @@ Page Title Area Style
 }
 
 .page-title-area .page-title-content ul li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 /* 
@@ -3558,7 +3558,7 @@ Who We Are Area Style
 }
 
 .who-we-are-page .who-we-are-content span {
-  color: #2042e3;
+  color: #0046b8;
   font-size: 16px;
   margin-bottom: 10px;
   display: block;
@@ -3649,7 +3649,7 @@ Main Contact Area Style
 }
 
 .main-contact-area .form-group.checkboxs p a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .main-contact-area .form-group.checkboxs p a:hover {
@@ -3679,8 +3679,8 @@ Main Contact Area Style
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border: 1px dashed #2042e3;
-  color: #2042e3;
+  border: 1px dashed #0046b8;
+  color: #0046b8;
   font-size: 30px;
   text-align: center;
   border-radius: 8px 0 8px 0;
@@ -3706,7 +3706,7 @@ Main Contact Area Style
 }
 
 .main-contact-area .contact-info .address li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .main-contact-area .contact-info .address li:last-child {
@@ -3720,8 +3720,8 @@ Main Contact Area Style
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border: 1px dashed #2042e3;
-  color: #2042e3;
+  border: 1px dashed #0046b8;
+  color: #0046b8;
   font-size: 30px;
   text-align: center;
   border-radius: 8px 0 8px 0;
@@ -3944,7 +3944,7 @@ User Area CSS
 }
 
 .user-area .user-form-content .or-login i {
-  color: #2042e3;
+  color: #0046b8;
   font-size: 20px;
   position: relative;
   top: 3px;
@@ -3955,9 +3955,9 @@ User Area CSS
 }
 
 .user-area .user-form-content .or-login:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
-  border-color: #2042e3;
+  border-color: #0046b8;
 }
 
 .user-area .user-form-content .or-login:hover i {
@@ -3970,7 +3970,7 @@ User Area CSS
 }
 
 .user-area .user-form-content .create a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 /* 
@@ -4019,14 +4019,14 @@ Sidebar Widget Style
   top: 29px;
   right: 31px;
   font-size: 20px;
-  color: #2042e3;
+  color: #0046b8;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   background-color: transparent;
 }
 
 .sidebar-widget.search .search-form .search-button:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .sidebar-widget.recent-post ul li {
@@ -4050,7 +4050,7 @@ Sidebar Widget Style
 }
 
 .sidebar-widget.recent-post ul li a:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .sidebar-widget.recent-post ul li a img {
@@ -4105,9 +4105,9 @@ Sidebar Widget Style
 .sidebar-widget.tags ul li a:hover {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
-  border-color: #2042e3;
+  border-color: #0046b8;
 }
 
 .sidebar-widget.tags ul li:last-child {
@@ -4130,7 +4130,7 @@ Blog Details Content Style
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: #2042e3;
+  background-color: #0046b8;
   display: inline-block;
   padding: 10px;
   position: absolute;
@@ -4169,7 +4169,7 @@ Blog Details Content Style
 }
 
 .blog-details-content .blog-top-content .news-content .admin li i {
-  color: #2042e3;
+  color: #0046b8;
   display: inline-block;
   margin-right: 5px;
 }
@@ -4218,7 +4218,7 @@ Blog Details Content Style
 
 .blog-details-content .blog-top-content blockquote i {
   font-size: 60px;
-  color: #2042e3;
+  color: #0046b8;
   position: absolute;
   top: 25px;
   left: 0;
@@ -4267,7 +4267,7 @@ Blog Details Content Style
 }
 
 .blog-details-content .tags ul li a:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -4365,12 +4365,12 @@ Avatar Sidebar Style
 }
 
 .avatar-sidebar ul li a:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
 .avatar-sidebar ul li a.active {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -4627,7 +4627,7 @@ Candidates Resume Content Style
 }
 
 .table-condensed .prev:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -4640,7 +4640,7 @@ Candidates Resume Content Style
 }
 
 .table-condensed .next:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -4654,7 +4654,7 @@ Candidates Resume Content Style
 }
 
 .table-condensed .day:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -4663,11 +4663,11 @@ Candidates Resume Content Style
 }
 
 .datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active {
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .datepicker table tr td.day:hover, .datepicker table tr td.focused {
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .single-check {
@@ -4690,7 +4690,7 @@ Candidates Resume Content Style
 }
 
 .single-check input:checked~.checkmark {
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .single-check input:checked~.checkmark:after {
@@ -4698,7 +4698,7 @@ Candidates Resume Content Style
 }
 
 .single-check:hover input~.checkmark {
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .single-check .checkmark {
@@ -4814,12 +4814,12 @@ Candidates Applied Jobs Content Style
 .candidates-applied-jobs-content .default-btn {
   padding: 15px 25px;
   background-color: #ffffff;
-  border: 1px solid #2042e3;
-  color: #2042e3;
+  border: 1px solid #0046b8;
+  color: #0046b8;
 }
 
 .candidates-applied-jobs-content .default-btn:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -4977,7 +4977,7 @@ Candidates Message Style
   top: 40px;
   right: 50px;
   background-color: transparent;
-  color: #2042e3;
+  color: #0046b8;
   font-size: 20px;
 }
 
@@ -5230,7 +5230,7 @@ Job Information Style
 }
 
 .job-information .form-group.checkboxs p a {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .job-information .choose-img {
@@ -5304,11 +5304,11 @@ Employers Listing Area Style
 }
 
 .employers-listing-area .shorting-menu li.active {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .employers-listing-area .shorting-menu li:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .employers-listing-area .shorting-menu li:last-child {
@@ -5346,7 +5346,7 @@ Employers Listing Area Style
   top: 12px;
   right: 20px;
   background-color: transparent;
-  color: #2042e3;
+  color: #0046b8;
   font-size: 20px;
 }
 
@@ -5361,7 +5361,7 @@ Employers Listing Area Style
 }
 
 .employers-listing-area .employers-listing-sidebar form .nice-select:focus {
-  border-color: #2042e3;
+  border-color: #0046b8;
 }
 
 /* 
@@ -5447,8 +5447,8 @@ Employers Details Area Style
 }
 
 .employers-details-area .employers-details-sidebar .employer-widget .social-icon li a:hover i {
-  border-color: #2042e3;
-  background-color: #2042e3;
+  border-color: #0046b8;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -5602,8 +5602,8 @@ Job Details Area Style
 }
 
 .job-details-area .job-details-sidebar .employer-widget .social-icon li a:hover i {
-  border-color: #2042e3;
-  background-color: #2042e3;
+  border-color: #0046b8;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -5690,7 +5690,7 @@ Job Details Area Style
 
 .price-range-bar {
   border: none;
-  background: #2042e3;
+  background: #0046b8;
   height: 5px;
   width: 94%;
   margin-left: 0;
@@ -5700,19 +5700,19 @@ Job Details Area Style
 }
 
 .price-range-bar .ui-slider-range {
-  background: #2042e3;
+  background: #0046b8;
 }
 
 .price-range-bar .ui-slider-handle {
   border: none;
   border-radius: 0;
   background: #fff;
-  border: 2px solid #2042e3;
+  border: 2px solid #0046b8;
   height: 15px;
   width: 15px;
   top: -5px;
   cursor: pointer;
-  background: #2042e3;
+  background: #0046b8;
   position: absolute;
 }
 
@@ -5721,7 +5721,7 @@ Job Details Area Style
 }
 
 .price-range-bar .ui-slider-handle+span {
-  background: #2042e3;
+  background: #0046b8;
 }
 
 /* 
@@ -5822,7 +5822,7 @@ Candidates Details Area Style
 }
 
 .candidates-details-area .candidates-details-content ul li.university {
-  color: #2042e3;
+  color: #0046b8;
   font-size: 16px;
 }
 
@@ -5874,7 +5874,7 @@ Candidates Details Area Style
 }
 
 .candidates-details-area .candidates-details-content .skill-bar .down-arrow {
-  border: 1px solid #2042e3;
+  border: 1px solid #0046b8;
   position: absolute;
   left: 50%;
   top: 120%;
@@ -5890,7 +5890,7 @@ Candidates Details Area Style
 
 .candidates-details-area .candidates-details-content .skill-bar .progress-content {
   height: 6px;
-  background-color: #2042e3;
+  background-color: #0046b8;
   width: 0%;
 }
 
@@ -5935,8 +5935,8 @@ Candidates Details Area Style
 }
 
 .candidates-details-area .candidates-details-sidebar .candidates-widget .social-icon li a:hover i {
-  border-color: #2042e3;
-  background-color: #2042e3;
+  border-color: #0046b8;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -5975,7 +5975,7 @@ Candidates Details Area Style
 
 .candidates-details-area .candidates-details-sidebar .candidates-widget .overview.download li i {
   font-size: 40px;
-  color: #2042e3;
+  color: #0046b8;
   font-weight: normal;
 }
 
@@ -6015,7 +6015,7 @@ Candidates Listing Area Style
   position: absolute;
   top: 15px;
   left: -72px;
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
   padding: 1px 40px;
   -webkit-transform: rotate(-45deg);
@@ -6143,14 +6143,14 @@ Candidates Listing Area Style
   top: 29px;
   right: 31px;
   font-size: 20px;
-  color: #2042e3;
+  color: #0046b8;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   background-color: transparent;
 }
 
 .candidates-listing-area .candidates-listing-sidebar .candidates-listing-widget .search-form .search-button:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .candidates-listing-area .candidates-listing-sidebar .candidates-listing-widget .accordion-widget {
@@ -6208,7 +6208,7 @@ Candidates Listing Area Style
   left: 2px;
   width: 9px;
   height: 9px;
-  background: #2042e3;
+  background: #0046b8;
 }
 
 .candidates-listing-area .candidates-listing-sidebar .candidates-listing-widget .accordion-widget .accordion-item .accordion-widget-content li .single-check .count {
@@ -6292,8 +6292,8 @@ Job Details Area Style
 }
 
 .job-details-area .job-details-sidebar .job-widget .social-icon li a:hover i {
-  border-color: #2042e3;
-  background-color: #2042e3;
+  border-color: #0046b8;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
@@ -6368,14 +6368,14 @@ Job Listing Area Style
   top: 29px;
   right: 31px;
   font-size: 20px;
-  color: #2042e3;
+  color: #0046b8;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   background-color: transparent;
 }
 
 .job-listing-area .job-listing-sidebar .job-listing-widget .search-form .search-button:hover {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .job-listing-area .job-listing-sidebar .job-listing-widget .accordion-widget {
@@ -6433,7 +6433,7 @@ Job Listing Area Style
   left: 2px;
   width: 9px;
   height: 9px;
-  background: #2042e3;
+  background: #0046b8;
 }
 
 .job-listing-area .job-listing-sidebar .job-listing-widget .accordion-widget .accordion-item .accordion-widget-content li .single-check .count {
@@ -6517,7 +6517,7 @@ Job Listing Area Style
   font-size: 300px;
   line-height: 1;
   font-weight: 700;
-  color: #2042e3;
+  color: #0046b8;
   margin-top: -48px;
 }
 
@@ -6545,7 +6545,7 @@ Job Listing Area Style
 .error-area .error-content p {
   margin: 20px 0 20px;
   font-size: 19px;
-  color: #2042e3;
+  color: #0046b8;
 }
 
 /*
@@ -6616,8 +6616,8 @@ Coming Soon Area CSS
 }
 
 .coming-soon-area .coming-soon-content #timer div {
-  border: 4px solid #2042e3;
-  color: #2042e3;
+  border: 4px solid #0046b8;
+  color: #0046b8;
   width: 100px;
   height: 105px;
   border-radius: 5px;
@@ -6680,7 +6680,7 @@ Coming Soon Area CSS
   height: 2px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  background: #2042e3;
+  background: #0046b8;
 }
 
 .coming-soon-area .coming-soon-content form .form-group .input-newsletter {
@@ -6723,7 +6723,7 @@ Coming Soon Area CSS
 }
 
 .coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus {
-  border-color: #2042e3;
+  border-color: #0046b8;
   outline: 0 !important;
 }
 
@@ -6797,7 +6797,7 @@ Preloader Area Style*/
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #2042e3;
+  background-color: #0046b8;
   top: 0;
   left: 0;
   z-index: 99999;
@@ -6834,7 +6834,7 @@ Preloader Area Style*/
   height: 100%;
   width: 60%;
   z-index: -1;
-  background: #2042e3;
+  background: #0046b8;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -6847,7 +6847,7 @@ Preloader Area Style*/
   height: 100%;
   width: 60%;
   z-index: -1;
-  background: #2042e3;
+  background: #0046b8;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   left: auto;
@@ -6914,7 +6914,7 @@ Go Top Style*/
   cursor: pointer;
   top: 87%;
   right: -10%;
-  background-color: #2042e3;
+  background-color: #0046b8;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -6954,7 +6954,7 @@ Go Top Style*/
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #2042e3;
+  background-color: #0046b8;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -6963,7 +6963,7 @@ Go Top Style*/
 
 .go-top:hover {
   color: #ffffff;
-  background-color: #2042e3;
+  background-color: #0046b8;
 }
 
 .go-top:hover::before {
@@ -7030,7 +7030,7 @@ Video wave Style*/
   line-height: 70px;
   text-align: center;
   border-radius: 0;
-  color: #2042e3;
+  color: #0046b8;
   position: relative;
   top: 3px;
   z-index: 1;
@@ -7144,7 +7144,7 @@ Video wave Style*/
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 0.1px solid #2042e3;
+  border: 0.1px solid #0046b8;
   -webkit-animation: videoTwo 8s linear infinite;
   animation: videoTwo 8s linear infinite;
 }
@@ -7159,7 +7159,7 @@ Video wave Style*/
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 0.1px solid #2042e3;
+  border: 0.1px solid #0046b8;
   -webkit-animation: videoTwo 8s linear infinite;
   animation: videoTwo 8s linear infinite;
 }
@@ -7207,8 +7207,8 @@ Video wave Style*/
   border-radius: 50%;
   display: inline-block;
   background: #ffffff;
-  color: #2042e3;
-  border: 5px solid #2042e3;
+  color: #0046b8;
+  border: 5px solid #0046b8;
   font-size: 60px;
 }
 
@@ -7263,12 +7263,12 @@ Nice select Area Style*/
 }
 
 .nice-select .option:hover {
-  background-color: #2042e3;
+  background-color: #0046b8;
   color: #ffffff;
 }
 
 .nice-select .option.selected.focus {
-  color: #2042e3;
+  color: #0046b8;
 }
 
 .nice-select .current {
@@ -7299,8 +7299,8 @@ Page-navigation Area Style*/
 
 .pagination-area .page-numbers:hover {
   color: #ffffff;
-  border-color: #2042e3;
-  background-color: #2042e3;
+  border-color: #0046b8;
+  background-color: #0046b8;
 }
 
 .pagination-area .page-numbers i {
@@ -7309,8 +7309,8 @@ Page-navigation Area Style*/
 
 .pagination-area .page-numbers.current {
   color: #ffffff;
-  border-color: #2042e3;
-  background-color: #2042e3;
+  border-color: #0046b8;
+  background-color: #0046b8;
 }
 
 /*# sourceMappingURL=style.css.map */

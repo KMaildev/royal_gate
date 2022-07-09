@@ -48,22 +48,6 @@
                                 </div>
                             </li>
                         </ul>
-
-                        <ul class="log-in">
-                            <li>
-                                <a href="#">
-                                    <i class="bx bxs-lock"></i>
-                                    Log In
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    <i class="bx bxs-user"></i>
-                                    Register
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -77,7 +61,7 @@
             <div class="container">
                 <div class="mobile-menu">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{ route('home') }}">
                             <img src="{{ asset('assets/images/logo.png') }}" alt="logo">
                         </a>
                     </div>
@@ -88,7 +72,7 @@
         <div class="desktop-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ route('home') }}">
                         <img src="{{ asset('assets/images/logo.png') }}" alt="logo">
                     </a>
 
@@ -108,64 +92,70 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="job-listing.html" class="nav-link">Job Listing</a>
+                                        <a href="job-listing.html" class="nav-link">
+                                            Company Profile
+                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="post-job.html" class="nav-link">Post A Job</a>
+                                        <a href="post-job.html" class="nav-link">
+                                            Director Dark
+                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="job-details.html" class="nav-link">Job Details</a>
+                                        <a href="job-details.html" class="nav-link">
+                                            Vision & Misstion
+                                        </a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="job-details.html" class="nav-link">
+                                            Organizational Chart
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="job-details.html" class="nav-link">
+                                            Procress Chart
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('team.index') }}" class="nav-link">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="job-details.html" class="nav-link">
+                                            Company Brochure
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="job-details.html" class="nav-link">
+                                            Our Partner
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </li>
 
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
-                                    Available Jobs
+                                    Manpower Services
                                     <i class="bx bx-chevron-down"></i>
                                 </a>
 
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="candidates-listing.html" class="nav-link">Candidates Listing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="candidates-details.html" class="nav-link">Candidates Details</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            Candidate Dashboard
-                                            <i class="bx bx-chevron-down"></i>
+                                        <a href="{{ route('cv.index') }}" class="nav-link">
+                                            Country Research
                                         </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="dashboard.html" class="nav-link">Dashboard</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="profile.html" class="nav-link">Profile</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="resume.html" class="nav-link">Resume</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="bookmarks.html" class="nav-link">Bookmarks</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="applied-jobs.html" class="nav-link">Applied Jobs</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="alert-jobs.html" class="nav-link">Alert Jobs</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="message.html" class="nav-link">Message</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="change-password.html" class="nav-link">Change
-                                                    Password</a>
-                                            </li>
-                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('employer.index') }}" class="nav-link">
+                                            Our Recruitment
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="job-details.html" class="nav-link">
+                                            Mine Stone
+                                        </a>
                                     </li>
                                 </ul>
                             </li>
@@ -205,7 +195,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="{{ route('activities.index') }}" class="nav-link">
                                     Activities
                                 </a>
                             </li>

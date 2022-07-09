@@ -68,6 +68,7 @@
                                         </a>
                                     </div>
                                 </div>
+                                <hr style="border-top: 2px dotted green;">
                             </div>
                         @endforeach
                     </div>
