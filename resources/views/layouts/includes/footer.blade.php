@@ -1,93 +1,65 @@
-<!-- Start Subscribe Area -->
-<section class="subscribe-area">
-    <div class="container">
-        <div class="subscribe-bg">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="subscribe-content">
-                        <h2>Find Your Next Great Job Opportunity!</h2>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <form class="newsletter-form" data-toggle="validator">
-                        <input type="email" class="form-control" placeholder="Enter email address" name="EMAIL"
-                            required autocomplete="off">
-
-                        <button class="default-btn" type="submit">
-                            <span>Subscribe</span>
-                        </button>
-
-                        <div id="validator-newsletter" class="form-result"></div>
-                        <p>Join The Newsletter 10,000 Users Already!</p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Subscribe Area -->
-
 <!-- Start Footer Area -->
-<footer class="footer-area pt-100 pb-70">
+<footer class="footer-area pt-100 pb-70"
+    style="background-image: url(https://www.nginx.com/nginxconf/wp-content/uploads/Conf2018-background-bottom-desktop-1366x705.png)">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="single-footer-widget single-bg">
-                    <a href="index.html" class="logo">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Image">
-                    </a>
-
-                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua consec tetur.</p>
-
-                    <ul class="social-icon">
-                        <li>
-                            <a href="#">
-                                <i class="bx bxl-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="bx bxl-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="bx bxl-linkedin-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="bx bxl-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="single-footer-widget">
-                    <h3>Contact</h3>
+                    <h3 style="color: white">Contact Information</h3>
 
                     <ul class="address">
                         <li>
                             <i class="bx bx-phone-call"></i>
-                            <span>Phone:</span>
-                            <a href="tel:+1-(514)-7939-357">+1 (514) 7939-357</a>
+                            <span style="color: white">Phone:</span>
+                            <a href="tel:951 201484" style="color: white">
+                                951 201484,
+                            </a>
+                            <a href="tel:8619080" style="color: white">
+                                8619080,
+                            </a>
                         </li>
+
+                        <li>
+                            <i class="bx bx-phone-call"></i>
+                            <span style="color: white">Phone</span>
+                            <a href="tel:959 5100542" style="color: white">
+                                959 5100542,
+                            </a>
+                            <a href="tel:951 202836" style="color: white">
+                                951 202836
+                            </a>
+                        </li>
+
                         <li>
                             <i class="bx bx-envelope"></i>
-                            <span>Email:</span>
-                            <a
-                                href="https://templates.envytheme.com/cdn-cgi/l/email-protection#432b262f2f2c032936212a6d202c2e"><span
-                                    class="__cf_email__"
-                                    data-cfemail="2d45484141426d47584f44034e4240">[email&#160;protected]</span></a>
+                            <span style="color: white">Email</span>
+                            <a href="mailto:info@royalgatecompany.com" style="color: white">
+                                info@royalgatecompany.com
+                            </a>
                         </li>
-                        <li class="location">
+
+                        <li>
+                            <i class="bx bx-envelope"></i>
+                            <span style="color: white">Email</span>
+                            <a href="mailto:admin@royalgatecompany.com" style="color: white">
+                                admin@royalgatecompany.com
+                            </a>
+                        </li>
+
+                        <li>
+                            <i class="bx bx-envelope"></i>
+                            <span style="color: white">Gmail</span>
+                            <a href="mailto:royalgateagency@gmail.com" style="color: white">
+                                royalgateagency@gmail.com
+                            </a>
+                        </li>
+
+                        <li class="location" style="color: white">
                             <i class="bx bx-location-plus"></i>
-                            <span>Address:</span>
-                            6890 Blvd, The Bronx, NY 1058 New York, USA
+                            <span style="color: white">Address</span>
+                            No. 76/80, 2nd Floor, Banyardala Road, Tha Pyay Gone Quarter, Mingalar Taung Nyunt Township,
+                            Yangon.
                         </li>
                     </ul>
                 </div>
@@ -95,53 +67,121 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="single-footer-widget">
-                    <h3>Helpful Resources</h3>
+                    <h3 style="color: white">Helpful Resources</h3>
 
                     <ul class="import-link">
-                        <li>
-                            <a href="#">Create Account</a>
+                        <li class="nav-item">
+                            <a href="{{ route('home') }}" class="nav-link active" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Home
+                            </a>
                         </li>
-                        <li>
-                            <a href="#">Contact Us</a>
+
+                        <li class="nav-item">
+                            <a href="{{ route('about.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Company Profile
+                            </a>
                         </li>
-                        <li>
-                            <a href="#">Site Map</a>
+
+                        <li class="nav-item">
+                            <a href="{{ route('director_message.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Director Message
+                            </a>
                         </li>
-                        <li>
-                            <a href="#">Terms of Use</a>
+
+                        <li class="nav-item">
+                            <a href="{{ route('statement.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Vision & Misstion
+                            </a>
                         </li>
-                        <li>
-                            <a href="#">Privacy Centre</a>
+
+                        <li class="nav-item">
+                            <a href="{{ route('process_chart.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Process Chart
+                            </a>
                         </li>
-                        <li>
-                            <a href="#">Blog</a>
+
+                        <li class="nav-item">
+                            <a href="{{ route('organization.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Our Organization Chart
+                            </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a href="{{ route('team.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Our Team
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a href="{{ route('recruitment_services.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Our Recruitment Services
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{ route('milestones.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Milestones
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{ route('cv.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Submit CV
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{ route('employer.index') }}" class="nav-link" style="color: white">
+                                <i class="fa fa-arrow-right"></i> Employer Form
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="single-footer-widget">
-                    <h3>Job Seekers</h3>
-
+                    <h3 style="color: white">Find Overseas Jobs</h3>
                     <ul class="import-link">
+                        @foreach ($countries as $country)
+                            <li>
+                                <a href="{{ route('country.show', $country->id) }}" style="color: white">
+                                    {{ $country->country ?? '' }}
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="single-footer-widget single-bg">
+                    <h3 style="color: white">
+                        Social Media
+                    </h3>
+                    <ul class="social-icon">
                         <li>
-                            <a href="#">Create Account</a>
+                            <a href="https://www.facebook.com/royal.gate.56" target="_blank">
+                                <i class="bx bxl-facebook" style="background-color: #0046b8; color: white;"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Browse Jobs</a>
+                            <a href="#">
+                                <i class="bx bxl-instagram" style="background-color: #ea4e3a; color: white;"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Upload CV</a>
+                            <a href="#">
+                                <i class="bx bxl-linkedin-square"
+                                    style="background-color: #2977b5; color: white;"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Company Profile</a>
-                        </li>
-                        <li>
-                            <a href="#">International Jobs</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ</a>
+                            <a href="#">
+                                <i class="bx bxl-twitter" style="background-color: #3aa1f2; color: white;"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -155,8 +195,9 @@
 <div class="copy-right-area">
     <div class="container">
         <p>
-            © 2021 Jubi Is Proudly Created By
-            <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+            Copyright &copy; {{ now()->year }} <span style="font-weight: bold; color: blue;">ROYAL GATE
+                INTERNATIONAL
+                CO.,LTD.</span> All Rights Reserved
         </p>
     </div>
 </div>
@@ -206,6 +247,7 @@
 
 {{-- Install --}}
 <script type="text/javascript" src="{{ url('vendor/jsvalidation/js/jsvalidation.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
 @yield('script')
 
 <script type="text/javascript">
@@ -239,7 +281,43 @@
     });
 </script>
 
+<script>
+    const ctx = document.getElementById('myChart');
+    const myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Japan', 'Singapore', 'Thailand', 'Malaysia'],
+            datasets: [{
+                label: '# Sending Worker',
+                data: [1000, 900, 1500, 1200],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
 </body>
-
 
 </html>

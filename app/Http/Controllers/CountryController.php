@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Country;
+use App\Models\Jobs;
 use Illuminate\Http\Request;
 
 class CountryController extends Controller
@@ -13,7 +15,8 @@ class CountryController extends Controller
      */
     public function index()
     {
-        //
+        $countryies = Country::all();
+        return view('country.index', compact('countryies'));
     }
 
     /**
@@ -45,7 +48,9 @@ class CountryController extends Controller
      */
     public function show($id)
     {
-        //
+        $country = Country::findOrFail($id);
+        $jobs = Jobs::get()->where('countries_id', $id);
+        return view('country.show', compact('country', 'jobs'));
     }
 
     /**

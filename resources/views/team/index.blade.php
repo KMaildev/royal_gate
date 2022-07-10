@@ -22,7 +22,7 @@
     <section class="freelancer-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <span>Top Freelancer</span>
+                <span>ROYAL GATE INTERNATIONAL CO.,LTD</span>
                 <h2>Our Team</h2>
             </div>
 
@@ -63,12 +63,12 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-lg-6">
                     <img src="{{ asset('data/team1.jpg') }}" alt="Royal Gate"
-                        style="width: 100%; height: 300px; object-fit: cover; background-size: contain; background-position: top; object-position: center">
+                        style="border: 2px solid blue; width: 100%; height: 300px; object-fit: cover; background-size: contain; background-position: top; object-position: center">
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-lg-6">
                     <img src="{{ asset('data/team2.jpg') }}" alt="Royal Gate"
-                        style="width: 100%; height: 300px; object-fit: cover; background-size: contain; background-position: top; object-position: center">
+                        style="border: 2px solid blue; width: 100%; height: 300px; object-fit: cover; background-size: contain; background-position: top; object-position: center">
                 </div>
             </div>
         </div>

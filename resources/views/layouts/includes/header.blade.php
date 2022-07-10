@@ -33,11 +33,18 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('data/logo.png') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Title -->
     <title>ROYAL GATE INTERNATIONAL CO.,LTD | @yield('title')</title>
+
+    <meta content="" name="ROYAL GATE INTERNATIONAL CO.,LTD">
+    <meta name="keywords" content="ROYAL GATE INTERNATIONAL CO.,LTD" />
+    <meta property="og:title" content="ROYAL GATE INTERNATIONAL CO.,LTD" />
+    <meta property="og:image" content="{{ asset('data/site.png') }}" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="ROYAL GATE INTERNATIONAL CO.,LTD" />
 </head>
 
 <body>

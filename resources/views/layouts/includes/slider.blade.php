@@ -1,75 +1,97 @@
-<section class="banner-area ptb-100">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="banner-content">
-                            <h1>Find Your Career to Make a Better Life</h1>
-                            <p>Search Over 10,000 Jobs Today!</p>
+<link href="{{ asset('slider/src/skdslider.css') }}" rel="stylesheet">
 
-                            <form class="search-job">
-                                <div class="row">
-                                    <div class="col-lg-5 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="job-title"
-                                                placeholder="Job title, skills, or company">
-                                        </div>
-                                    </div>
+<style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="job-title-2"
-                                                placeholder="City, State, or zip">
-                                        </div>
-                                    </div>
+    .demo-code {
+        background-color: #ffffff;
+        border: 1px solid #333333;
+        display: block;
+        padding: 10px;
+    }
 
-                                    <div class="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
-                                        <button type="submit" class="default-btn">
-                                            <i class="bx bx-search"></i>
-                                            Search Jobs
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+    .option-table td {
+        border-bottom: 1px solid #eeeeee;
+    }
+</style>
 
-                            <div class="total-job-count">
-                                <div class="row">
-                                    <div class="col-lg-4 col-sm-6 col-md-4">
-                                        <div class="job-count">
-                                            <h3><span>Live Jobs: </span>9,492</h3>
-                                        </div>
-                                    </div>
+<div id="demo1">
+    <div class="slide">
+        <img src="{{ asset('slider/photo/2.jpeg') }}" />
+        <div class="slide-desc">
+            <h2>Our Mission</h2>
+            <p>
+                Our customers are central to our mission.
+                Our employment agency will follow our mission to staff with great employees. Our businesses services
+                will allow the business to stay focused on their core values.  We have a mission to connect employees
+                that are talented, motivated, and driven to excellence with great businesses by opening up opportunities
+                for both. Our goals are to provide high-quality outsourced employment, human resource services, and to
+                empower business owners and employees to be their best.
 
-                                    <div class="col-lg-4 col-sm-6 col-md-4">
-                                        <div class="job-count">
-                                            <h3><span>Companies: </span>12,5582</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-sm-6 col-md-4 offset-sm-3 offset-lg-0 offset-md-0">
-                                        <div class="job-count">
-                                            <h3><span>New Jobs: </span>6,436</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5">
-                        <div class="banner-img">
-                            <img src="{{ asset('assets/images/banner/banner-img.png') }}" alt="Image">
-
-                            <div class="video-content">
-                                <a href="https://www.youtube.com/watch?v=BVnMXNW_grk" class="popup-youtube">
-                                    <i class="flaticon-play-button-1"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </p>
         </div>
     </div>
-</section>
+
+
+    <div class="slide">
+        <img src="{{ asset('slider/photo/17.jpg') }}" />
+        <div class="slide-desc">
+            <h2>Our Vision</h2>
+            <p>
+                To be the leading partner that clients and candidates always choose to connect with.
+                We continuously strive to become the preferred source for employment and human resource services. We are
+                dedicated to serving our customers and the community with the highest levels of service, knowledge,
+                professionalism, honesty and integrity.
+            </p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="{{ asset('slider/photo/1.jpeg') }}" />
+        <div class="slide-desc">
+            <h2>
+                Our slogan
+            </h2>
+            <p>
+                "ROYAL GATE INTERNATIONAL CO.,LTD" aims to increase employment opportunities for citizens and promote
+                their growth.
+            </p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="{{ asset('slider/photo/7.jpg') }}" />
+    </div>
+</div>
+
+@section('script')
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="{{ asset('slider/src/skdslider.min.js') }}"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#demo1').skdslider({
+                slideSelector: '.slide',
+                delay: 5000,
+                animationSpeed: 2000,
+                showNextPrev: true,
+                showPlayButton: true,
+                autoSlide: true,
+                animationType: 'fading'
+            });
+
+            jQuery('#demo2').skdslider({
+                slideSelector: '.slide',
+                delay: 5000,
+                animationSpeed: 1000,
+                showNextPrev: true,
+                showPlayButton: false,
+                autoSlide: true,
+                animationType: 'sliding'
+            });
+        });
+    </script>
+@endsection

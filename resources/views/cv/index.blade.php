@@ -128,7 +128,7 @@
                         <div class="col-lg-12">
                             <hr>
                             <button class="default-btn">
-                                Post a Job
+                                Apply Now
                             </button>
                         </div>
                     </div>

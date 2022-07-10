@@ -24,7 +24,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $lang = session('lang');
         $countries = Country::all();
-        view()->share('countries', $countries);
+        view()->share('countries', $countries, 'lang', $lang);
     }
 }

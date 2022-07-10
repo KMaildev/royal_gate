@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Jobs;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,7 +14,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        $jobs = Jobs::all();
+        return view('welcome', compact('jobs'));
     }
 
     /**
@@ -80,5 +82,11 @@ class HomeController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function admin()
+    {
+        // return redirect()->away('https://recruitmentmyanmarsak.com/admin/');
+        return redirect('https://recruitmentmyanmarsak.com/admin/');
     }
 }

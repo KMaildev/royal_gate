@@ -44,7 +44,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="single-blog-post">
                                 <div class="blog-img">
-                                    <img src="{{ $photo }}" alt="Image"
+                                    <img data-enlargeable="" src="{{ $photo }}" alt="Image"
                                         style="width: 100%; height: 260px; background-size: center; object-fit: cover; border: 3px solid #458cd2; padding: 10px;">
                                 </div>
                             </div>
